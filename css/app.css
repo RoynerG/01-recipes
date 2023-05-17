@@ -1,0 +1,90 @@
+/* General */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;700;800&display=swap");
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+.titulo,
+.descripcion,
+.recipes-list {
+  text-align: center;
+}
+
+.titulo {
+  font-size: 44px;
+}
+
+.descripcion {
+  font-size: 22px;
+}
+
+.recipes-list {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.recipes-list::after {
+  content: "🥞";
+}
+
+ul > li {
+  list-style: none;
+}
+
+ul > li::before {
+  content: "📄";
+}
+
+.link-recipe {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 900;
+  color: black;
+}
+
+.link-recipe:hover {
+  color: steelblue;
+}
+
+/* Utilitis */
+ol > li:last-of-type {
+  margin-bottom: 30px;
+}
+
+/* Recipes */
+
+ol > li {
+  font-size: 24px;
+}
+
+.ingredients {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.recipe-descripcion {
+  font-size: 23px;
+}
+
+.back {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  font-weight: 900;
+  border-radius: 5px;
+}
+
+.back:hover {
+  background-color: steelblue;
+  color: black;
+}
